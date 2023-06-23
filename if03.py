@@ -7,4 +7,17 @@ def main(a):
     Returns:
         a: integer
     """
-    return
+    k = a
+    if k>0:
+        k=k+1
+    if k<0:
+        k=k-2
+    if k==0:
+        k=10
+    return k
+a = 18
+print(main(a))
+a = -76
+print(main(a))
+a = 0
+print(main(a))
